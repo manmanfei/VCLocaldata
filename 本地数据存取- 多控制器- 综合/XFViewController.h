@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XFViewController : UIViewController
+// 引入包含协议的头文件，才能遵守协议
+#import "writeViewController.h"
+#import "readViewController.h"
+@interface XFViewController : UITableViewController<writeViewControllerGelegate ,readViewControllerGelegate>
 
 @end

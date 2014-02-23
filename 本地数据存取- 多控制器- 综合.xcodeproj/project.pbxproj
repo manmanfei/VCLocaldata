@@ -17,8 +17,10 @@
 		9BD84809179F554F007F90B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD84808179F554F007F90B9 /* Default@2x.png */; };
 		9BD8480B179F554F007F90B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8480A179F554F007F90B9 /* Default-568h@2x.png */; };
 		9BD8480E179F554F007F90B9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8480C179F554F007F90B9 /* MainStoryboard_iPhone.storyboard */; };
-		9BD84811179F554F007F90B9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8480F179F554F007F90B9 /* MainStoryboard_iPad.storyboard */; };
 		9BD84814179F554F007F90B9 /* XFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84813179F554F007F90B9 /* XFViewController.m */; };
+		9BD8481C179F66A8007F90B9 /* writeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8481B179F66A8007F90B9 /* writeViewController.m */; };
+		9BD8481F179F66C0007F90B9 /* readViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD8481E179F66C0007F90B9 /* readViewController.m */; };
+		9BD84822179F8F8A007F90B9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84821179F8F89007F90B9 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +38,14 @@
 		9BD84808179F554F007F90B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9BD8480A179F554F007F90B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9BD8480D179F554F007F90B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		9BD84810179F554F007F90B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		9BD84812179F554F007F90B9 /* XFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFViewController.h; sourceTree = "<group>"; };
 		9BD84813179F554F007F90B9 /* XFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFViewController.m; sourceTree = "<group>"; };
+		9BD8481A179F66A8007F90B9 /* writeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writeViewController.h; sourceTree = "<group>"; };
+		9BD8481B179F66A8007F90B9 /* writeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = writeViewController.m; sourceTree = "<group>"; };
+		9BD8481D179F66C0007F90B9 /* readViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readViewController.h; sourceTree = "<group>"; };
+		9BD8481E179F66C0007F90B9 /* readViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = readViewController.m; sourceTree = "<group>"; };
+		9BD84820179F8F89007F90B9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9BD84821179F8F89007F90B9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +95,15 @@
 				9BD84803179F554F007F90B9 /* XFAppDelegate.h */,
 				9BD84804179F554F007F90B9 /* XFAppDelegate.m */,
 				9BD8480C179F554F007F90B9 /* MainStoryboard_iPhone.storyboard */,
-				9BD8480F179F554F007F90B9 /* MainStoryboard_iPad.storyboard */,
 				9BD84812179F554F007F90B9 /* XFViewController.h */,
 				9BD84813179F554F007F90B9 /* XFViewController.m */,
+				9BD8481A179F66A8007F90B9 /* writeViewController.h */,
+				9BD8481B179F66A8007F90B9 /* writeViewController.m */,
+				9BD8481D179F66C0007F90B9 /* readViewController.h */,
+				9BD8481E179F66C0007F90B9 /* readViewController.m */,
 				9BD847FB179F554F007F90B9 /* Supporting Files */,
+				9BD84820179F8F89007F90B9 /* Person.h */,
+				9BD84821179F8F89007F90B9 /* Person.m */,
 			);
 			path = "本地数据存取- 多控制器- 综合";
 			sourceTree = "<group>";
@@ -167,7 +179,6 @@
 				9BD84809179F554F007F90B9 /* Default@2x.png in Resources */,
 				9BD8480B179F554F007F90B9 /* Default-568h@2x.png in Resources */,
 				9BD8480E179F554F007F90B9 /* MainStoryboard_iPhone.storyboard in Resources */,
-				9BD84811179F554F007F90B9 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +192,9 @@
 				9BD84801179F554F007F90B9 /* main.m in Sources */,
 				9BD84805179F554F007F90B9 /* XFAppDelegate.m in Sources */,
 				9BD84814179F554F007F90B9 /* XFViewController.m in Sources */,
+				9BD8481C179F66A8007F90B9 /* writeViewController.m in Sources */,
+				9BD8481F179F66C0007F90B9 /* readViewController.m in Sources */,
+				9BD84822179F8F8A007F90B9 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +215,6 @@
 				9BD8480D179F554F007F90B9 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9BD8480F179F554F007F90B9 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9BD84810179F554F007F90B9 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,6 +319,7 @@
 				9BD84819179F554F007F90B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
